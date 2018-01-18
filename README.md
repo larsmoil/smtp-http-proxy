@@ -1,5 +1,8 @@
 # [smtp-http-proxy: Tiny SMTP to HTTP bridge](https://el-tramo.be/smtp-http-proxy)
 
+[![](https://images.microbadger.com/badges/image/lamoi/smtp-http-proxy.svg)](https://microbadger.com/images/lamoi/smtp-http-proxy "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/lamoi/smtp-http-proxy.svg)](https://microbadger.com/images/lamoi/smtp-http-proxy "Get your own version badge on microbadger.com")
+
 `smtp-http-proxy` is a lightweight daemon that posts incoming SMTP requests
 to an HTTP URL as JSON.
 
