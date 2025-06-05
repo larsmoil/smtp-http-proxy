@@ -1,4 +1,4 @@
-FROM alpine:3.4 as builder
+FROM alpine:3.5 AS builder
 
 RUN apk --no-cache add g++ scons curl-dev boost-dev bash
 
@@ -6,7 +6,7 @@ ADD . /opt/src
 RUN cd /opt/src && scons && scons check=1
 RUN strip /opt/src/smtp-http-proxy
 
-FROM alpine:3.4
+FROM alpine:3.5
 RUN apk --no-cache add \
   boost \
   boost-program_options \
